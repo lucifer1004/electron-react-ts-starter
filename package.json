@@ -9,11 +9,10 @@
     "package": "cross-env NODE_ENV=prod electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "format": "prettier --write 'src/**/*.{ts,tsx,html,css}'",
-    "lint": "echo \"No linting configured\""
+    "format": "prettier --write 'src/**/*.{ts,tsx,html,css}'"
   },
   "keywords": [],
-  "author": "gabriel",
+  "author": "Gabriel Wu <wuzihua@pku.edu.cn>",
   "license": "MIT",
   "config": {
     "forge": {
