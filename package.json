@@ -1,7 +1,7 @@
 {
   "name": "electron-react-ts-starter",
   "productName": "TypeRelectron",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A starter kit for electron+react+typescript",
   "main": ".webpack/main",
   "scripts": {
