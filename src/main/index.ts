@@ -10,7 +10,7 @@ if (require('electron-squirrel-startup')) {
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow: BrowserWindow | null
 
-const createWindow = () => {
+export const createWindow = () => {
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 800,

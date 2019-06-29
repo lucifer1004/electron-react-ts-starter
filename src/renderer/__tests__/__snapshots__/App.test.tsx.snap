@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test if App renders 1`] = `
+<DocumentFragment>
+  <h1>
+    Hello TypeRelectron
+  </h1>
+  <p>
+    You have clicked the button 0 times
+  </p>
+  <button>
+    Click
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Test if Button works 1`] = `
+<DocumentFragment>
+  <h1>
+    Hello TypeRelectron
+  </h1>
+  <p>
+    You have clicked the button 1 time
+  </p>
+  <button>
+    Click
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Test if Button works 2`] = `
+<DocumentFragment>
+  <h1>
+    Hello TypeRelectron
+  </h1>
+  <p>
+    You have clicked the button 2 times
+  </p>
+  <button>
+    Click
+  </button>
+</DocumentFragment>
+`;
