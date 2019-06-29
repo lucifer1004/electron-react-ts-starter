@@ -1,6 +1,5 @@
 {
-  "name": "electron-react-ts-starter",
-  "productName": "TypeRelectron",
+  "name": "type-relectron",
   "version": "0.0.1",
   "description": "A starter kit for electron+react+typescript",
   "main": ".webpack/main",
@@ -11,7 +10,6 @@
     "make:win": "yarn make -p win32 --targets @electron-forge/maker-squirrel",
     "make:deb": "yarn make -p linux --targets @electron-forge/maker-deb",
     "make:rpm": "yarn make -p linux --targets @electron-forge/maker-rpm",
-    "make:zip": "yarn make -p darwin --targets @electron-forge/maker-zip",
     "make:dmg": "yarn make -p darwin --targets @electron-forge/maker-dmg",
     "publish": "electron-forge publish",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,html,css}'",
@@ -25,7 +23,7 @@
     "starter",
     "starter kit"
   ],
-  "author": "Gabriel Wu <wuzihua@pku.edu.cn>",
+  "author": "Gabriel Wu",
   "license": "MIT",
   "config": {
     "forge": {

@@ -32,18 +32,35 @@ yarn test
 
 ## Package
 
+To package your Electron program, simply run
+
 ```sh
 yarn package
 ```
 
 ## Make
 
-```sh
-yarn make
-```
+Several `make:*` scripts are defined in `package.json`.
+
+- `yarn make` will make all the packages suitable for your platform.
+- `yarn make:win` will make a Windows installer via Squirrel. It relies on
+  `wine` and `mono` when not running on Windows.
+- `yarn make:dmg` will make a MacOS `.dmg` installer. It can only be used on
+  MacOS.
+- `yarn make:deb` will make a Debian `.deb` installer. It can only be used on
+  Debian-based systems.
+- `yarn make:rpm` will make a RedHat/Fedora `.rpm` installer. It can only be
+  used on RedHat/Fedora-based systems.
+
+Note that you should not include `@` in `author` of `package.json`, otherwise
+Squirrel will fail to make the installer.
 
 ## Publish
+
+To publish your package, you can simply run
 
 ```sh
 yarn publish
 ```
+
+By default, this will publish your package to `NPM`.
