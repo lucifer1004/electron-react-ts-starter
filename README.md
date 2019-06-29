@@ -33,6 +33,12 @@ Note that port `9000` should be available.
 yarn test
 ```
 
+To generate coverage reports
+
+```sh
+yarn coverage
+```
+
 ### End-to-End test
 
 `Spectron` is used for e2e tests. You will need to modify the path pointing to
