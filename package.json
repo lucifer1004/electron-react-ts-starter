@@ -13,7 +13,8 @@
     "make:dmg": "yarn make -p darwin --targets @electron-forge/maker-dmg",
     "publish": "electron-forge publish",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,html,css}'",
-    "test": "jest"
+    "test": "jest",
+    "test:e2e": "jest -c jest.e2e.js"
   },
   "keywords": [
     "electron",
@@ -107,6 +108,7 @@
     "mini-css-extract-plugin": "0.7.0",
     "node-loader": "0.6.0",
     "prettier": "1.18.2",
+    "spectron": "^7.0.0",
     "terser-webpack-plugin": "1.3.0",
     "ts-jest": "^24.0.2",
     "typescript": "3.5.2",

@@ -13,6 +13,7 @@ The kit is integrated with the following packages:
 - [electron-forge](https://github.com/electron-userland/electron-forge)
 - [jest-electron-runner](https://github.com/facebook-atom/jest-electron-runner)
 - [react-testing-library](https://github.com/testing-library/react-testing-library)
+- [spectron](https://github.com/electron-userland/spectron)
 - [jest-transform-css](https://github.com/dferber90/jest-transform-css)
 - [jest-transform-graphql](https://github.com/remind101/jest-transform-graphql)
 
@@ -26,8 +27,19 @@ Note that port `9000` should be available.
 
 ## Test
 
+### Unit test
+
 ```sh
 yarn test
+```
+
+### End-to-End test
+
+`Spectron` is used for e2e tests. You will need to modify the path pointing to
+your packaged application before running e2e tests,
+
+```sh
+yarn test:e2e
 ```
 
 ## Package
