@@ -1,6 +1,6 @@
 import React from 'react'
 import {render, fireEvent} from '@testing-library/react'
-import 'jest-dom/extend-expect'
+import '@testing-library/jest-dom/extend-expect'
 import App from '../App'
 
 describe('Test if', () => {
