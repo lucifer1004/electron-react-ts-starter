@@ -106,7 +106,7 @@
     "jest-transform-css": "^2.0.0",
     "jest-transform-graphql": "^2.1.0",
     "lint-staged": "9.2.0",
-    "mini-css-extract-plugin": "0.7.0",
+    "mini-css-extract-plugin": "0.8.0",
     "node-loader": "0.6.0",
     "prettier": "1.18.2",
     "spectron": "^7.0.0",
