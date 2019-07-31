@@ -110,7 +110,7 @@
     "node-loader": "0.6.0",
     "prettier": "1.18.2",
     "spectron": "^7.0.0",
-    "terser-webpack-plugin": "1.3.0",
+    "terser-webpack-plugin": "1.4.1",
     "ts-jest": "^24.0.2",
     "typescript": "3.5.3",
     "webpack-merge": "4.2.1"
