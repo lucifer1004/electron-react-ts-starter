@@ -13,9 +13,6 @@ module.exports = {
       ...common,
       displayName: 'renderer',
       runner: '@jest-runner/electron',
-      setupFilesAfterEnv: [
-        '@testing-library/react/cleanup-after-each',
-      ],
       testEnvironment: '@jest-runner/electron/environment',
       testMatch: ['**/__tests__/**/*.(spec|test).(tsx|jsx)']
     }
