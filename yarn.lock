@@ -1050,6 +1050,18 @@
     express-ws "^4.0.0"
     xterm "^3.14.5"
 
+"@electron/get@^1.0.1":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@electron/get/-/get-1.5.0.tgz#6217d9d18fb71fbd8cd2445a31aa0edc723d19dd"
+  integrity sha512-tafxBz6n08G6SX961F/h8XFtpB/DdwRvJJoDeOH9x78jDSCMQ2G/rRWqSwLFp9oeMFBJf0Pf5Kkw6TKt5w9TWg==
+  dependencies:
+    debug "^4.1.1"
+    env-paths "^2.2.0"
+    fs-extra "^8.1.0"
+    got "^9.6.0"
+    sanitize-filename "^1.6.2"
+    sumchecker "^3.0.0"
+
 "@electron/get@^1.3.0", "@electron/get@^1.3.1":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@electron/get/-/get-1.4.0.tgz#e405e0f37e5f4349e3ba3d3a21803ee5ca140fa9"
@@ -1522,10 +1534,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.3.tgz#27b3f40addaf2f580459fdb405222685542f907a"
   integrity sha512-3SiLAIBkDWDg6vFo0+5YJyHPWU9uwu40Qe+v+0MH8wRKYBimHvvAOyk3EzMrD/TrIlLYfXrqDqrg913PynrMJQ==
 
-"@types/node@^10.12.18":
-  version "10.14.14"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.14.14.tgz#a47955df2acf76ba7f0ac3b205d325da193dc9ad"
-  integrity sha512-xXD08vZsvpv4xptQXj1+ky22f7ZoKu5ZNI/4l+/BXG3X+XaeZsmaFbbTKuhSE3NjjvRuZFxFf9sQBMXIcZNFMQ==
+"@types/node@^12.0.12":
+  version "12.11.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.11.2.tgz#75ba3beda30d690b89a5089ca1c6e8e386150b76"
+  integrity sha512-dsfE4BHJkLQW+reOS6b17xhZ/6FB1rB8eRRvO08nn5o+voxf3i74tuyFWNH6djdfgX7Sm5s6LD8t6mJug4dpDw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -3554,7 +3566,7 @@ electron-chromedriver@^6.0.0:
     electron-download "^4.1.1"
     extract-zip "^1.6.7"
 
-electron-download@^4.1.0, electron-download@^4.1.1:
+electron-download@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/electron-download/-/electron-download-4.1.1.tgz#02e69556705cc456e520f9e035556ed5a015ebe8"
   integrity sha512-FjEWG9Jb/ppK/2zToP+U5dds114fM1ZOJqMAR4aXXL5CvyPE9fiqBK/9YcwC9poIFQTEJk/EM/zyRwziziRZrg==
@@ -3712,13 +3724,13 @@ electron-wix-msi@^2.1.1:
     lodash "^4.17.10"
     uuid "^3.3.2"
 
-electron@6.0.7:
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-6.0.7.tgz#cf3f02502aa58d1517f3befd9c2da2a95cd2eb46"
-  integrity sha512-W0TFnJrBdYBUhzRnEqZt/CfYFmG9RwSnhhXBbOumn/qLQYr9e7kXb6z4y0XQQLhXKkDhuXp+dNqfzhtId5ZiQw==
+electron@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-7.0.0.tgz#47a5b15ca213f32c20d85f82a1be615a74cdf55f"
+  integrity sha512-vrF1loRW1p0vQCbduqO0EZpo8ePJOuxUT6tSoUSU3lsbGK3VnlJop+0PpCIPzbe2K4G4Gk7WexH08V9se7mJcA==
   dependencies:
-    "@types/node" "^10.12.18"
-    electron-download "^4.1.0"
+    "@electron/get" "^1.0.1"
+    "@types/node" "^12.0.12"
     extract-zip "^1.0.3"
 
 elegant-spinner@^1.0.1:
@@ -8768,6 +8780,13 @@ sanitize-filename@^1.6.0:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/sanitize-filename/-/sanitize-filename-1.6.2.tgz#01b4fc8809f14e9d22761fe70380fe7f3f902185"
   integrity sha512-cmTzND7RMxUB+f7gI+4+KAVHWEg0lfXvQJdko+FXDP5bNbGIdx4KMP5pX6lv5jfT9jSf6OBbjyxjFtZQwYA/ig==
+  dependencies:
+    truncate-utf8-bytes "^1.0.0"
+
+sanitize-filename@^1.6.2:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/sanitize-filename/-/sanitize-filename-1.6.3.tgz#755ebd752045931977e30b2025d340d7c9090378"
+  integrity sha512-y/52Mcy7aw3gRm7IrcGDFx/bCk4AhRh2eI9luHOQM86nZsqwiRkkq2GekHXBBD+SmPidc8i2PqtYZl+pWJ8Oeg==
   dependencies:
     truncate-utf8-bytes "^1.0.0"
 
