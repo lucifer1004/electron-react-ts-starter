@@ -112,7 +112,7 @@
     "spectron": "^9.0.0",
     "terser-webpack-plugin": "2.2.1",
     "ts-jest": "^24.1.0",
-    "typescript": "3.6.4",
+    "typescript": "3.7.3",
     "webpack-merge": "4.2.2"
   },
   "husky": {
