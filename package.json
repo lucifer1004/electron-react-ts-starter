@@ -113,7 +113,7 @@
     "terser-webpack-plugin": "2.2.1",
     "ts-jest": "^24.2.0",
     "typescript": "3.7.3",
-    "webpack-merge": "4.2.2"
+    "webpack-merge": "5.8.0"
   },
   "husky": {
     "hooks": {
