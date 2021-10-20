@@ -103,7 +103,7 @@
     "file-loader": "5.0.2",
     "husky": "3.1.0",
     "jest": "^24.9.0",
-    "jest-transform-css": "^2.0.0",
+    "jest-transform-css": "2.1.0",
     "jest-transform-graphql": "^2.1.0",
     "lint-staged": "9.5.0",
     "mini-css-extract-plugin": "0.8.0",
