@@ -78,8 +78,8 @@
   "devDependencies": {
     "@babel/core": "7.7.4",
     "@babel/preset-env": "^7.7.4",
-    "@babel/preset-react": "7.7.4",
-    "@babel/preset-typescript": "7.7.4",
+    "@babel/preset-react": "7.29.7",
+    "@babel/preset-typescript": "7.29.7",
     "@electron-forge/cli": "6.0.0-beta.46",
     "@electron-forge/maker-deb": "6.0.0-beta.46",
     "@electron-forge/maker-dmg": "^6.0.0-beta.46",
